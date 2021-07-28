@@ -230,8 +230,6 @@ def evaluate(args):
 
     dataset = load_and_cache_examples(args)
 
-    # embedder = SentenceTransformer('/home/niuyilin/pre-trained-models/sentence-robert-large-nli-mean-tokens', device=args.device)
-    # embedder = SentenceTransformer('/home/niuyilin/pre-trained-models/test', device=args.device)
     embedder = SentenceTransformer(args.model_name_or_path, device=args.device)
 
     acc = []
