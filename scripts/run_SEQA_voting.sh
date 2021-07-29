@@ -1,5 +1,5 @@
 # COPA
-python ./src/run_SEQA_voting.py --model_name_or_path=./models/sentence-robert-large-nli-mean-tokens --eval_data_file=./generation/COPA/copa-test.xml
+# python ./src/run_SEQA_voting.py --model_name_or_path=./models/sentence-robert-large-nli-mean-tokens --eval_data_file=./data/COPA/copa-test.xml
 
 # ROCStory
 # python ./src/run_SEQA_voting.py --model_name_or_path=./models/sentence-robert-large-nli-mean-tokens --eval_data_file=./data/ROCStory/valid2018.csv
